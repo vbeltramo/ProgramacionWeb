@@ -7,11 +7,22 @@
 .titulosh2{color: rgb(0, 0, 252); text-align: center;}
 .colorparrafos{color: white;}
 .parrafos{background-color: black;}
-#padding-interno{padding:50px;
+#padding-interno{padding:30px;
     margin:10px;}
-.colorimagenesquina{background-color: darkgreen;}
+.tamañotitulo{font-size:50px;}
+.negrita{font-weight: bold;}
 .fijaesquina{
     position: fixed;
     bottom: 1vw;
     right: 1vw;
 }
+.imagenderecha{
+    position: absolute;
+    right: 100px;
+}
+.imagenizquierda{
+    position: relative;
+    left: 100px;
+
+}
+.bordelista{border: 3px solid rgb(54, 42, 228);}
