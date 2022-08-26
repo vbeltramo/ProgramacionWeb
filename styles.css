@@ -13,9 +13,10 @@
 .negrita{font-weight: bold;}
 .fijaesquina{
     position: fixed;
-    bottom: 1vw;
+    bottom: 2vw;
     right: 1vw;
 }
+.colorbotonwhatsapp{color: green;}
 .imagenderecha{
     position: absolute;
     right: 100px;
