@@ -1,5 +1,17 @@
-.titulosh1{color: rgb(64, 145, 79);}
-.bordesdetitulos{border: 2px solid rgb(64, 145, 79);}
-.titulosh2{color: rgb(20, 145, 79);}
+.sticky{position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    padding: 5px;}
+.titulosh1{color: rgb(255, 255, 255);}
+.fondotitulosh1{background-color:  rgb(54, 42, 228) ;}
+.titulosh2{color: rgb(0, 0, 252); text-align: center;}
 .colorparrafos{color: white;}
 .parrafos{background-color: black;}
+#padding-interno{padding:50px;
+    margin:10px;}
+.colorimagenesquina{background-color: darkgreen;}
+.fijaesquina{
+    position: fixed;
+    bottom: 1vw;
+    right: 1vw;
+}
