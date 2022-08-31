@@ -3,7 +3,7 @@
     top: 0;
     padding: 5px;}
 .titulosh1{color: rgb(255, 255, 255);}
-.fondotitulosh1{background-color:  rgb(54, 42, 228) ;}
+.fondotitulosh1{background-color:  rgb(81, 75, 169) ;}
 .titulosh2{color: rgb(0, 0, 252); text-align: center;}
 .colorparrafos{color: white;}
 .parrafos{background-color: black;}
@@ -26,4 +26,16 @@
     left: 100px;
 
 }
-.bordelista{border: 3px solid rgb(54, 42, 228);}
+.bordelista{border: 3px solid rgb(81, 75, 169);}
+.cuatrofotos{
+    font-size: 0;
+    text-align: center;
+}
+.cuatrofotos .imgs{
+    display: inline-block;
+    width: 25%;
+}
+.imgs{
+    height: auto;
+    width: 100%;
+}
