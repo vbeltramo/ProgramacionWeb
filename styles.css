@@ -12,9 +12,12 @@
 }
 
 .primero{
-    height: 100px;
+    height: 30px;
 }
 
+.titulos{
+    padding: 20px 20px;
+}
 
 .titulo-principal{
     background-color: rgb(221, 221, 221);
@@ -26,7 +29,7 @@
 }
 .card-container{
     display: flex;
-    margin: 50px 20px;
+    margin: 20px 20px;
     overflow-x: scroll;
 }
 .card-container::-webkit-scrollbar{
@@ -43,7 +46,7 @@
         min-width: 170px;
     }
     .card-container{
-        margin: 50px 20px;
+        margin: 10px 20px;
     }
     .card .imagen{
         max-height: 140px;
