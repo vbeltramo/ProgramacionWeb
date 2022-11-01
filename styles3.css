@@ -1,0 +1,33 @@
+
+.sticky{position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    padding: 5px;}
+
+.margin{
+    border: 1px solid red;
+}
+
+.h1{
+    color: rgb(80, 140, 167);
+    text-align: center;
+    width: 100%;
+    background-color: white
+    ;
+}
+h2{
+    margin-left: 5px;
+}
+.margin2{
+    border: 1px solid blue;
+}
+.imagenes{
+    width: 100%;
+}
+.margenicono{
+    width: 100%;
+    background-color: red
+}
+.colordiv{
+    background-color: white;
+}
