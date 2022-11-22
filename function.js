@@ -1,7 +1,10 @@
 let cardCarrito = document.querySelector(".card-carrito");
 let botonCarrito = document.querySelector(".navbar-carrito");
 let botonanadir = document.querySelectorAll(".card-body a");
+let botonfinalizar = document.querySelector("#finalizar");
 var isDesplegado = false;
+
+
 
 botonCarrito.addEventListener("click", desplegar);
 botonanadir.forEach(boton => {
@@ -20,4 +23,9 @@ function desplegar(){
         cardCarrito.style = "display:block";
         isDesplegado = true;
     }
+}
+
+botonfinalizar.addEventListener("click", terminar);
+function terminar(){
+    alert("Compra finalizada: "+total)
 }

@@ -1,7 +1,7 @@
 // Aca voy a hacer un carrito
-
 let botones = document.querySelectorAll(".comprar");
 let carrito = document.querySelector(".card-carrito");
+
 
 var total = 0;
 let burgaPrecioFinal = "";
@@ -9,6 +9,7 @@ let burgaPrecioFinal = "";
 botones.forEach(boton => {
     boton.addEventListener("click", anadir);
 });
+
 
 function anadir(event){
     card = event.target.closest(".card");
@@ -61,6 +62,7 @@ function funcTotal(){
 
     carrito.querySelector(".precio-total").innerHTML = "Total: $" + total;
 }
+//let botonfinalizar = document.querySelector(".finalizar");
 
 var cardBurgaIncial = document.querySelector(".card-burga-carrito").cloneNode(true);
 document.querySelector(".card-burga-carrito").remove();
