@@ -1,3 +1,70 @@
+@media (min-width: 992px){
+    .navbar-carrito{
+        position:absolute;
+        right: 20px;
+        top: 12px;
+    }
+    .card-carrito{
+        position: absolute;
+        right: 0px;
+        top: 55px;
+        background-color: #212529;
+        width: 400px;
+        z-index: 10;
+        display: none;
+    }
+    .card-burga-carrito{
+        height: 100px;
+        border: white solid 1px;
+        border-radius: 3px;
+        margin: 5px;
+    }
+    .card-burga-carrito .textos{
+        display: inline-block;
+        margin-left: 10px;
+    }
+    .card-burga-carrito .titulo{
+        color: white;
+        font-size: 23px;
+    }
+    .card-burga-carrito .precio{
+        color: white;
+        font-size: 17px;
+    }
+    .card-burga-carrito img{
+        height: 100%;
+    }
+    .card-burga-carrito .cantidad{
+        display: inline-flex;
+        margin-left: 50px;
+    }
+    .card-burga-carrito .cantidad input{
+        width: 50px;
+        position: absolute;
+        right: 50px;
+    }
+    .card-comprar-carrito{
+        float: right;
+    }
+    .card-comprar-carrito button{
+        margin: 8px;
+        border-radius: 5px;
+        background-color: white;
+        display: inline;
+        /*FACIL*/
+    }
+    .card-comprar-carrito h5{
+        color: white;
+        display: inline;
+    }
+}
+
+.navbar{
+    position: sticky !important;
+    top: 0px;
+    z-index: 10;
+}
+
 .card{
     margin: 0 10px;
     min-width: 400px;
@@ -60,5 +127,60 @@
     }
     .titulo-principal{
         padding: 50px 0;
+    }
+}
+
+@media (max-width: 992px){
+    .card-carrito{
+        position: absolute;
+        left: 0px;
+        top: 200px;
+        background-color: #212529;
+        width: 400px;
+        z-index: 10;
+    }
+    .card-burga-carrito{
+        height: 100px;
+        border: white solid 1px;
+        border-radius: 3px;
+        margin: 5px;
+    }
+    .card-burga-carrito .textos{
+        display: inline-block;
+        margin-left: 10px;
+    }
+    .card-burga-carrito .titulo{
+        color: white;
+        font-size: 23px;
+    }
+    .card-burga-carrito .precio{
+        color: white;
+        font-size: 17px;
+    }
+    .card-burga-carrito img{
+        height: 100%;
+    }
+    .card-burga-carrito .cantidad{
+        display: inline-flex;
+        margin-left: 50px;
+    }
+    .card-burga-carrito .cantidad input{
+        width: 50px;
+        position: absolute;
+        right: 50px;
+    }
+    .card-comprar-carrito{
+        float: right;
+    }
+    .card-comprar-carrito button{
+        margin: 8px;
+        border-radius: 5px;
+        background-color: white;
+        display: inline;
+        /*FACIL*/
+    }
+    .card-comprar-carrito h5{
+        color: white;
+        display: inline;
     }
 }
